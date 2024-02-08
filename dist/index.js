@@ -30827,7 +30827,7 @@ async function run() {
       return;
     }
 
-    const octokit = github.getOctokit(token);
+    const octokit = github.getOctokit(githubToken);
 
     // Suffix comment with hidden value to check for updating later.
     const commentIdSuffix = `\n\n\n<hidden purpose="for-rewritable-pr-comment-action-use" value="${commentId}"></hidden>`;
