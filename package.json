@@ -1,6 +1,6 @@
 {
   "name": "rewritable-pr-comment",
-  "version": "0.5.1",
+  "version": "0.5.3",
   "description": "Github Action that posts a PR / issue comment that re-writes itself on update",
   "main": "index.js",
   "scripts": {
